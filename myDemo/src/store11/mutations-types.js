@@ -1,0 +1,1 @@
+export const SET_A = 'SET_A'

@@ -1,0 +1,84 @@
+body,p,dl,dd,h1,h2,h3,h4,h5,h6{margin:0;}
+a{text-decoration:none;}
+img{border:none; vertical-align:top;}
+ol,ul{margin:0;padding:0;list-style:none;}
+/*根据媒体窗口大小自更改字体大小*/
+      @media only screen and (max-width: 960px), only screen and (max-device-width:960px) {
+      html,body {
+          font-size:33px;
+      }
+    }
+     @media only screen and (max-width: 800px), only screen and (max-device-width:800px) {
+      html,body {
+          font-size:27.5px;
+      }
+    }
+         @media only screen and (max-width: 720px), only screen and (max-device-width:720px) {
+      html,body {
+          font-size:24.75px;
+      }
+    }
+         @media only screen and (max-width: 640px), only screen and (max-device-width:640px) {
+      html,body {
+          font-size:22px;
+      }
+    }
+         @media only screen and (max-width: 600px), only screen and (max-device-width:600px) {
+      html,body {
+          font-size:20.625px;
+      }
+    }
+         @media only screen and (max-width: 540px), only screen and (max-device-width:540px) {
+      html,body {
+          font-size:18.5625px;
+      }
+    }
+         @media only screen and (max-width: 480px), only screen and (max-device-width:480px) {
+      html,body {
+          font-size:16.5px;
+      }
+    }
+         @media only screen and (max-width: 414px), only screen and (max-device-width:414px) {
+      html,body {
+          font-size:14.23125px;
+      }
+    }
+         @media only screen and (max-width: 400px), only screen and (max-device-width:400px) {
+      html,body {
+          font-size:13.75px;
+      }
+    }
+         @media only screen and (max-width: 375px), only screen and (max-device-width:375px) {
+      html,body {
+          font-size:12.890625px;
+      }
+    }
+         @media only screen and (max-width: 360px), only screen and (max-device-width:360px) {
+      html,body {
+          font-size:12.375px;
+      }
+    }
+         @media only screen and (max-width: 320px), only screen and (max-device-width:320px) {
+      html,body {
+          font-size:11px;
+      }
+    }
+.container-fuild{width:100%;padding:0.5rem 1rem 3rem;box-sizing:border-box;overflow:hidden;}
+
+/*box-fiex*/
+.box-flex{width:100%;display:-moz-box;display:-webkit-box;display:box;overflow:hidden;}
+.box-flex>a{-moz-box-flex:1.0;-webkit-box-flex:1.0;box-flex:1.0;display:block;}
+.box-flex>li{-moz-box-flex:1.0;-webkit-box-flex:1.0;box-flex:1.0;}
+.box-flex>p{-moz-box-flex:1.0;-webkit-box-flex:1.0;box-flex:1.0;}
+/*清除安卓系统手机点击的外边框*/
+a,button,input,li,span,textarea{-webkit-tap-highlight-color:rgba(255,0,0,0);outline:none;}
+/*伪类清除浮动*/
+.clearfix:after {content: "";display:block;height: 0; clear: both; visibility: hidden; }
+/*清除滚动条*/
+::-webkit-scrollbar{width:0;height:0;}
+/*清除底部遮挡*/
+#clear_bianju{width:100%;height:1px;padding-bottom:5.5rem;}
+/*全局背景样式*/
+html{height:100%;}
+/*body{height:100%;font:1.2rem/1.8rem STXihei;color:#333333;}*/
+body{font:1.2rem/1.8rem STXihei;color:#333333;}
